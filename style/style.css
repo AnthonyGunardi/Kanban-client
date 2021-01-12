@@ -1,0 +1,87 @@
+.landing-page {
+    background: linear-gradient(to top, rgba(245, 246, 252, 0.52), rgba(82, 5, 123, 0.73)), url('../asset/startae-team-7tXA8xwe4W4-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: auto;
+}
+
+.container-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 581px;
+}
+
+.container-login {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    font-size: 5rem;
+    font-family: 'Alegreya SC', serif;
+    color: black;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: white;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.btn-link {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+p a input h2 {
+    font-family: 'Source Sans Pro', sans-serif;;
+}
+
+.main-page {
+    min-height:581px;
+    background-color: #892cdc;
+}
+
+.kanban-navbar {
+    background-color: #52057b;
+    margin-right: 0 !important;
+    overflow: hidden;
+    padding-right: 0 !important;
+}
+
+.modal-open {
+    overflow-y: inherit;
+    overflow-y: scroll;
+    margin-right: 0 !important;
+    padding-right: 0 !important;
+}
+
+.card {
+    background-color: #bc6ff1;
+}
+
+.footer-copyright{
+    background-color: #000000;
+}
+
+.kanban-backlog {
+    background-color: #f1c5c5;
+}
+
+.kanban-todo {
+    background-color: #faf0af;
+}
+
+.kanban-done {
+    background-color: #e5edb7;
+}
+
+.kanban-completed {
+    background-color: #8bcdcd;
+}
