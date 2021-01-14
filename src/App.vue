@@ -1,10 +1,47 @@
 <template>
-  
+    <div>
+        <LandingPage 
+            v-if="pageName == 'landingpage'"
+            @login="login"
+            @register="register"
+            @googleSignIn="googleSignIn"
+            :loginState=loginState
+            @changeStatus="changeStatus"
+        ></LandingPage>
+        <MainPage 
+            v-if="pageName == 'mainpage'"
+            @logout="logout"
+            :tasks="tasks"
+            @destroy="destroy"
+            @update="update"
+            @addTask="addTask"
+            @changeCategory="changeCategory"
+        ></MainPage>
+        <Footer></Footer>
+    </div>
 </template>
 
 <script>
+import LandingPage from './components/LandingPage'
+import MainPage from './components/MainPage'
+import Footer from './components/Footer'
 import axios from 'axios'
 import Vue from 'vue'
+import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
+import VueSweetalert2 from 'vue-sweetalert2';
+
+// If you don't need the styles, do not connect
+import 'sweetalert2/dist/sweetalert2.min.css';
+// Install VueSweetalert2
+Vue.use(VueSweetalert2);
+
+// Install BootstrapVue
+Vue.use(BootstrapVue)
+// Optionally install the BootstrapVue icon components plugin
+Vue.use(IconsPlugin)
+
+import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap-vue/dist/bootstrap-vue.css'
 
 export default {
     name: 'App',
@@ -16,9 +53,6 @@ export default {
         };
     },
     methods: {
-<<<<<<< HEAD
-
-=======
         changeStatus(input) {
             this.loginState = input
         },
@@ -196,10 +230,19 @@ export default {
                     this.showAlert('error', 'Error', error.response.data.message)
                 })
         }
->>>>>>> 29f91e9... create template & methods in App.vue
     },
     components: {
-      
+        LandingPage,
+        MainPage,
+        Footer
+    },
+    created () {
+        if (localStorage.getItem('access_token')) {
+            this.pageName = 'mainpage'
+            this.fetchTasks()
+        } else {
+            this.pageName = 'landingpage'
+        }
     }
 }
 </script>
