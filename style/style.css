@@ -1,16 +1,19 @@
 .landing-page {
-    background: linear-gradient(to top, rgba(245, 246, 252, 0.52), rgba(82, 5, 123, 0.73)), url('../asset/startae-team-7tXA8xwe4W4-unsplash.jpg');
+    background: linear-gradient(to top, rgba(245, 246, 252, 0.52), rgba(25, 15, 31, 0.73)), url('../asset/kanban.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     min-height: auto;
 }
 
-.container-header{
+.container-header {
+    min-height: 581px;
+}
+
+.container-title {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 581px;
 }
 
 .container-login {
@@ -31,12 +34,13 @@
 
 a {
     text-decoration: none;
-    color: #ffffff;
+    color: #ffffff !important;
+    cursor: pointer;
 }
 
 .btn-link {
-    text-decoration: none;
-    color: #ffffff;
+    text-decoration: none !important;
+    color: #ffffff !important;
 }
 
 p a input h2 {
@@ -45,14 +49,18 @@ p a input h2 {
 
 .main-page {
     min-height:581px;
-    background-color: #892cdc;
+    /* background-color: #892cdc; */
 }
 
 .kanban-navbar {
-    background-color: #52057b;
+    background-color: #070404;
     margin-right: 0 !important;
     overflow: hidden;
-    padding-right: 0 !important;
+    /* padding-right: 0 !important; */
+}
+
+.nav-small {
+    font-size: small;
 }
 
 .modal-open {
@@ -62,24 +70,29 @@ p a input h2 {
     padding-right: 0 !important;
 }
 
-.card {
-    background-color: #bc6ff1;
+.card-body {
+    background-color: #ffffff;
 }
 
-.footer-copyright{
+.footer-copyright {
     background-color: #000000;
 }
 
+.kanban-add {
+    text-decoration: none !important;
+    color: #000000 !important;
+}
+
 .kanban-backlog {
-    background-color: #f1c5c5;
+    background-color: #f19696;
 }
 
 .kanban-todo {
-    background-color: #faf0af;
+    background-color: #ffed77;
 }
 
 .kanban-done {
-    background-color: #e5edb7;
+    background-color: #b3e493;
 }
 
 .kanban-completed {
