@@ -20,6 +20,16 @@
   "homepage": "https://github.com/AnthonyGunardi/kanban-client#readme",
   "dependencies": {
     "axios": "^0.21.1",
-    "vue": "^2.6.12"
+    "bootstrap": "^4.5.3",
+    "bootstrap-vue": "^2.21.2",
+    "moment": "^2.29.1",
+    "vue": "^2.6.12",
+    "vue-google-login": "^2.0.5",
+    "vue-hot-reload-api": "^2.3.4",
+    "vue-sweetalert2": "^4.1.1"
+  },
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^3.2.0",
+    "vue-template-compiler": "^2.6.12"
   }
 }

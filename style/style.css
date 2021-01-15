@@ -8,6 +8,7 @@
 
 .container-header {
     min-height: 581px;
+    height: 100vh;
 }
 
 .container-title {
@@ -76,6 +77,10 @@ p a input h2 {
 
 .footer-copyright {
     background-color: #000000;
+    position: fixed;
+    margin: 0;
+    bottom: 0;
+    width: 100%;
 }
 
 .kanban-add {
