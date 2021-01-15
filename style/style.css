@@ -50,7 +50,8 @@ p a input h2 {
 
 .main-page {
     min-height:581px;
-    /* background-color: #892cdc; */
+    height: 100vh;
+    background-color: #dda0dd;
 }
 
 .kanban-navbar {
