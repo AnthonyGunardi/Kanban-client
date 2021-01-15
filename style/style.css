@@ -50,7 +50,7 @@ p a input h2 {
 
 .main-page {
     min-height:581px;
-    height: 100vh;
+    height: fit-content;
     background-color: #dda0dd;
 }
 
