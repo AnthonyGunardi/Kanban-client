@@ -41,7 +41,7 @@ export default {
                 },
                 {
                     id: 3,
-                    name: 'Done',
+                    name: 'Doing',
                     style: 'kanban-done' 
                 },
                 {
