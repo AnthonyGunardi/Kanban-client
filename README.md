@@ -4,3 +4,9 @@ A simple kanban app, created using Vue.js (client) & node.js, express, sequelize
 
 ## URL
 https://kanban-antz.web.app/
+
+(For client's Google sign-in development, use http://localhost:1234)
+
+
+#### Server
+https://github.com/AnthonyGunardi/kanban-server
