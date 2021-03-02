@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AnthonyGunardi/kanban-client.git"
+    "url": "git+https://github.com/AnthonyGunardi/Kanban-client.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AnthonyGunardi/kanban-client/issues"
+    "url": "https://github.com/AnthonyGunardi/Kanban-client/issues"
   },
-  "homepage": "https://github.com/AnthonyGunardi/kanban-client#readme",
+  "homepage": "https://github.com/AnthonyGunardi/Kanban-client#readme",
   "dependencies": {
     "axios": "^0.21.1",
     "bootstrap": "^4.5.3",
