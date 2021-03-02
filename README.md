@@ -9,6 +9,6 @@ https://kanban-antz.web.app/
 
 
 #### Link for Server:
-[Kanban - server](https://github.com/AnthonyGunardi/kanban-server)
+[Kanban - server](https://github.com/AnthonyGunardi/Kanban-server)
 
 
